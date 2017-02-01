@@ -22,7 +22,7 @@ public class DetectingCollisions : MonoBehaviour {
 		if (gameObject.tag == "PlayerWeapon") {
 			if (coll.tag == "Enemy") {
 				Debug.Log("Enemy's HP:" + coll.GetComponent<Status> ().TakeDamage (GetComponent<WeaponStatus> ().dmg));				Vector3 dir = coll.transform.position - transform.position;
-				coll.GetComponent<Rigidbody2D> ().AddForce (150*new Vector2(dir.x, dir.y));
+				coll.GetComponent<Rigidbody2D> ().AddForce (15000*new Vector2(dir.x, dir.y));
 			}
 		}
 		if (gameObject.tag == "EnemyWeapon") {

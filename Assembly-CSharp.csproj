@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{69DBBF42-045B-62ED-746E-EE9EBCEFCD06}</ProjectGuid>
+    <ProjectGuid>{68120B50-7BCA-ADE4-37C4-83C046095AEB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemys\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Enemys\GoblinStatus.cs" />
      <Compile Include="Assets\Scripts\Generic\DetectingCollisions.cs" />
      <Compile Include="Assets\Scripts\Generic\Status.cs" />
